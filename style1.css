@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+      
+    }
+    .square {
+      position: fixed;
+      height: 400px;
+      transform: translate(181%, 11%);
+      opacity: 0.2;
+      margin-left: 500px;
+    }
+    .square {
+      transform: translate(140%, 43%);
+      height: 350px;
+    }
+  
+  .form {
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-form {
+    background-color: #1abc9c;
+    position: relative;
+  }
+  .contact-form:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color:#1abc9c;
+    transform: rotate(45deg);
+    top: 50px;
+    left: -13px;
+  }
+  form {
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+  }
+  .title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+  }
+  .input_container {
+    position: relative;
+    margin: 1rem 0;
+  }
+ 
+  input {
+    width: 100%;
+    height: 40%;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+  }
+ 
+  
+ 
+   .input_container label {
+    
+
+    color: #fafafa;
+    font-size: 0.9rem;
+    font-weight: 300;
+  
+   }
+  
+  .btn{
+   width: 100%;
+    padding: 0.9rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    color: #1abc9c;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+ margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+ 
+  
+  .contact-info {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+  }
+  
+  .contact-info .title {
+    color: #1abc9c;
+  }
+  .information {
+    display: flex;
+    color: #555;
+    margin: 2rem 0;
+    align-items: center;
+    font-size: 0.95rem;
+  }
+  .icon {
+    width: 28px;
+    margin-right: 3rem;
+  }
+
+  .social-media {
+    padding: 2rem 0 0 0;
+  }
+  
+  .social-media p {
+    color: #333;
+  }
+  
+  .social-icons {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+  
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #333, #149279);
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+
+  }
+  
+  

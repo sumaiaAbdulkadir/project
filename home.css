@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: antiquewhite; */
+}
+
+header {
+    background-color:#faf7f7;
+    /* padding: 20px; */
+    height: 80px;
+}
+ .top_part{
+   background-color: #144171;
+   width: 100%;
+   height: 50px;
+}
+
+
+
+nav {
+    /* position: fixed; */
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    margin-left: 350px;
+    margin-top: -110px;
+}
+
+.logo img {
+  margin-bottom: 60px;
+    width: 19%;
+    height: auto;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.hero-content {
+    margin-left: 500px;
+   margin-bottom: 50px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.hero-content h1{ 
+    font-size: 40px;
+   
+}
+.hero-content p{ 
+    font-size: 18px;
+   
+}
+
+.nav-links a {
+    color:#041426;
+    text-decoration: none;
+}
+
+/* Add this CSS to your existing home.css file */
+
+.hero-video {
+    position: relative;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-video::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity to make it darker or lighter */
+    z-index: 1;
+}
+
+.hero-video video {
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+}
+
+.hero-content a{
+    display: inline block;
+   justify-content: center;
+   text-align: center;
+}
+
+.cta-button {
+    margin-top: 15px;
+    text-align: center;
+    /* height: 10%; */
+    width: 25%;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    background-color:#fff;
+    color: #144171;
+    text-decoration: none;
+    border-radius: 5px;
+    line-height: 35px;
+
+}
+
+.cta-button:hover {
+    background-color: aquamarine;
+}
+.nav-links a:hover{
+    color: aquamarine;
+}
